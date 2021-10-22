@@ -24,7 +24,7 @@ def add_something(a, b):
     return a + b
 
 
-def subtract(a, b):
+def subtract_something(a, b):
     """
     Substracts something from something else.
 
