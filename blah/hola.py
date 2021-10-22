@@ -22,3 +22,21 @@ def add_something(a, b):
 
     """
     return a + b
+
+
+def subtract(a, b):
+    """
+    Substracts something from something else.
+
+    a: add-able
+        First thing
+    b: add-able
+        Second thing.
+
+    Returns:
+    --------
+    Result of adding the two.
+
+    """
+
+    return a - b
