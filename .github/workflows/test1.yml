@@ -20,5 +20,6 @@ jobs:
       run: |
         pip install pytest
         pip install pytest-cov
+        export PYTHONPATH=$PYTHONPATH: .blah
         pytest blah/tests --doctest-modules --junitxml=junit/test-results.xml --cov=com --cov-report=xml --cov-report=html
         
