@@ -1,5 +1,5 @@
 import pytest
-from blah.hola import *
+from ..blah.hola import *
 
 
 def test1():
